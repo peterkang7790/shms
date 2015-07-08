@@ -1,0 +1,19 @@
+###################
+# SHMS Properties
+###################
+shms.url.root=http://hemsfos.lsware.co.kr/shms
+shms.pda.url.root=http://hemsfos.lsware.co.kr/shms/pda
+###########
+#페이징설정
+###########
+shms.pda.paging.blockList=5
+shms.pda.paging.blockPage=10
+shms.paging.blockList=10
+shms.paging.blockPage=10
+shms.graph.paging.blockList=5
+shms.graph.paging.blockPage=6
+####################################
+# Session 설정 
+####################################
+# 관리자
+shms.session.MaxInactiveInterval.admin=-1

@@ -1,0 +1,94 @@
+/* CSS Document */
+body{padding-top:0px;margin:0px;}
+/* Layout */
+
+#lay_leftMenu{float:left;padding-top:5px;}
+#content{float:left;width:800px;padding:5px 0px 5px 10px;}
+#layLeft{float:left;}
+#layRight{float:right;}
+#cenText{ text-align:center;}
+#footer{font-family: µ¸¿ò;font-size: 12px;color : #fff;background-color: #94c1f2;padding:3px 0 0 5px;}
+
+#btn_layout{width:235px;text-align:right;padding:5px;}
+.paging{width:235px;text-align:center;font-family: µ¸¿ò, ±¼¸²;font-size:12px;color:#5b5a5a;}
+
+
+li{float:left; list-style:none;}
+ #title_bg{ background:url(../pdaImages/pda_title_bg.jpg) repeat-x; height:35px;width:215px; vertical-align:middle;padding-top:10px;color:#FFF; font-family:"µ¸¿ò", "±¼¸²"; font-weight:bold;}
+/* subTile */
+#subTitle{width:230px;margin-top:10px;}
+#subTitle td {border-bottom: 2px solid #e5e5e5;font-family: µ¸¿ò, ±¼¸²;font-size: 12px;}
+#subTitle #subTitle_tit {border-bottom: 2px solid #72b9d7;}
+.txt_tit {font-family: µ¸¿ò, ±¼¸²;font-size: 16px;font-weight: bold;color: #366485;}
+/* //subTile */
+
+/* content Table*/
+
+.loginTable th{vertical-align:top;background-color: #e2effc;}
+.loginTable td{font-family: µ¸¿ò;font-size: 12px;color : #5E5E5E;background-color: #e2effc;}
+.loginTable a{font-family: µ¸¿ò, ±¼¸²;font-size:12px;color:#000000;text-decoration:none;}
+.loginTable a:link {font-family: µ¸¿ò, ±¼¸²;font-size:12px;color:#000000;}
+.loginTable a:visited {font-family: µ¸¿ò, ±¼¸²;font-size:12px;color:#000000;text-decoration:none;}
+.loginTable a:hover {font-family: µ¸¿ò, ±¼¸²;font-size:12px;color:#000000;text-decoration:underline;}
+.loginTable a:active {font-family: µ¸¿ò, ±¼¸²;font-size:12px;color:#000000;}
+.loginTable img{border:none;}
+
+
+.cTable th{vertical-align:top;background-color: #e2effc;}
+.cTable td{font-family: µ¸¿ò;font-size: 12px;color : #5E5E5E;/*background-color: #e2effc;*/}
+.cTable a{font-family: µ¸¿ò, ±¼¸²;font-size:12px;color:#000000;text-decoration:none;}
+.cTable a:link {font-family: µ¸¿ò, ±¼¸²;font-size:12px;color:#000000;}
+.cTable a:visited {font-family: µ¸¿ò, ±¼¸²;font-size:12px;color:#000000;text-decoration:none;}
+.cTable a:hover {font-family: µ¸¿ò, ±¼¸²;font-size:12px;color:#000000;text-decoration:underline;}
+.cTable a:active {font-family: µ¸¿ò, ±¼¸²;font-size:12px;color:#000000;}
+.cTable img{border:none;}
+
+#subTitle{border-bottom:2px #88b0dd solid;color:#4f80b8;font-weight:bold;}
+
+#subTitle img{vertical-align:middle;}
+
+
+#conTitle{padding-top:3px;}
+
+.contentTable{/*clear: both;*/margin-top: 3px;border-top: 2px solid #298dc7;border-left:1px solid #81b3c8; }
+.contentTable img{vertical-align:middle;}
+.contentTable th{padding: 2px;background-color: #e6f3f8;font-family: µ¸¿ò, ±¼¸²;font-size: 12px;color: #1c638c;	border-right:1px solid #81b3c8; border-bottom:1px solid #81b3c8; font-weight:100; vertical-align:middle;}
+.contentTable td{padding: 2px;font-family: µ¸¿ò;font-size: 12px;color : #5E5E5E;background-color: #ffffff;border-right:1px solid #81b3c8;border-bottom:1px solid #81b3c8;}
+
+
+
+/*- Menu Tabs --------------------------- */
+#tabsBg{background:#4a8ad1;}
+#tabs {float:left;width:100%;background:#4a8ad1;font-size:12px;line-height:normal;}
+#tabs ul {margin: 5px 10px 0 5px;list-style:none;}
+#tabs li {display:inline;margin:0;padding:0;}
+#tabs a {float:left;background:url("../pdaImages/tableft.gif") no-repeat left top;margin:0;padding:0 0 0 4px;text-decoration:none;}
+#tabs a span {float:left;display:block;background:url("../pdaImages/tabright.gif") no-repeat right top;padding:5px 15px 4px 6px;color:#FFF;}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+/* End IE5-Mac hack */
+#tabs a:hover span {text-decoration: none;color: #ffa72a;}
+#tabs a:hover {background-position:0% -42px;}
+#tabs a:hover span {background-position:100% -42px;}  
+
+#tabs #current a {background-position:0% -42px;}
+#tabs #current a span {background-position:100% -42px;}
+
+
+#content{padding:5px;}
+
+.MSlist02td {background-color:#FFFFFF; font-family: "µ¸¿ò", "Arial", "sans-serif", "helvetica"; font-size: 9pt; color: #545454; line-height: 18px;}
+.MSlist03td {background-color:#F5F5F5; font-family: "µ¸¿ò", "Arial", "sans-serif", "helvetica"; font-size: 9pt; color: #545454; line-height: 18px;}
+.MSlist04td {background-color:#fffdd0; font-family: "µ¸¿ò", "Arial", "sans-serif", "helvetica"; font-size: 9pt; color: #545454; line-height: 18px;font-weight:bold;}
+
+
+.month{border-top: 2px solid #298dc7;border-left:1px solid #81b3c8;}
+.month th{padding: 2px;background-color: #e6f3f8;font-family: µ¸¿ò, ±¼¸²;font-size: 12px;color: #1c638c;	border-right:1px solid #81b3c8; border-bottom:1px solid #81b3c8; font-weight:100; vertical-align:middle;}
+.month td{padding: 2px;font-family: µ¸¿ò;font-size: 12px;color : #5E5E5E;background-color: #ffffff;border-right:1px solid #81b3c8;border-bottom:1px solid #81b3c8;}
+
+.month td .dim a{color : #f5f5f5;}
+
+
+.treeTable{margin-top:5px;}
+.treeTable b{color:#fff;}
+.treeTable td{padding:2px;}
